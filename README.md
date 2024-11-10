@@ -38,3 +38,9 @@ The visual design was crafted to communicate professionalism while ensuring read
 Typography choices include **Poppins** for body text, lending a readable and contemporary look, while **Roboto Mono** in headings creates a visual hierarchy that emphasizes section titles without overwhelming the viewer. Text size and spacing decisions were made to maximize readability, with clear separation between sections for a scannable structure. 
 
 Buttons, links, and hover effects use Bootstrap’s color options, creating a seamless and polished interaction experience. A fixed top navigation bar was also implemented to make each section easily accessible without excessive scrolling. Visual feedback, such as hover effects on links and buttons, was added to make interactions intuitive and responsive. This visual design aligns with industry standards for professional portfolios, combining aesthetics with practicality.
+
+---
+
+## Design Prototype
+You can view the design prototype on Figma via this link: [CV Design Prototype on Figma](https://www.figma.com/design/TTkdBeQBRPlQv6SHu7atjT/CV?node-id=0-1&t=mCGeSUjkh25bcG5X-1).
+
