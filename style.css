@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+/* Header */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #ffffff;
+}
+
+.top-bar .logo {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #0056b3; /* Hover effect: blue color */
+}
+
+/* Active link */
+nav a.active {
+    color: #007bff;
+    font-weight: 700;
+    border-bottom: 2px solid #007bff; /* Highlight with underline */
+}
+
+/* Main container with full height */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2vw;
+    background: linear-gradient(to right, #f0f0f0 40%, #ffffff 40%);
+}
+
+/* Profile card */
+.profile-card {
+    background-color: #e0e0e0;
+    padding: 30px 20px;
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    text-align: center;
+    margin: 0 5vw;
+}
+
+.profile-photo {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profile-card h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.profile-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.social-links a img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 25px;
+    height: 25px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.social-links a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+/* Introduction text */
+.intro-text {
+    max-width: 600px;
+    text-align: left;
+    padding: 0 5vw;
+}
+
+.intro-text h1 {
+    font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+/* CV button */
+.button-cv {
+    background-color: #007bff;
+}
+
+/* Contact button */
+.button-contacto {
+    background-color: #007bff;
+}
+
+/* Hover effects */
+.button-cv:hover {
+    background-color: #0056b3;
+}
+
+.button-contacto:hover {
+    background-color: #0056b3;
+}
+
+.description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .top-bar {
+        padding: 20px 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .profile-card {
+        margin: 20px 0;
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .intro-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.3rem;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
